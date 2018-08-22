@@ -48,7 +48,7 @@ gulp.task('build', ['minify'], () => {
     .pipe(gulp.dest('public'));
 });
 
-// start is replace by series in gulp 4
+// start is replace by series in gulp 4, check documentation
 // gulp.task('default', ['del'], () => {
 //     gulp.start('build');
 // });

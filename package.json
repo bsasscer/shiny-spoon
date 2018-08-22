@@ -1,7 +1,7 @@
 {
   "name": "ncm-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple starter site",
   "scripts": {
     "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
