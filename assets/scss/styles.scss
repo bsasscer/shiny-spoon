@@ -1,0 +1,278 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "base/article-dual-column";
+@import "base/contact-form-clean";
+@import "base/features-clean";
+@import "base/footer-dark";
+@import "base/newsletter-subscription-form";
+@import "base/registration-form-with-photo";
+@import "base/team-clean";
+
+#hero {
+  width:100%;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image:url("../img/simon-rae-271949-unsplash-mobile.jpg");
+}
+
+.navbar-light .navbar-brand {
+  background-image:url("../img/ncm.svg");
+  background-repeat:no-repeat;
+  width:250px;
+  background-position:center;
+  background-size:cover;
+  height:70px;
+  margin-right:0px;
+  padding-bottom:8px;
+  margin-bottom:14px;
+}
+
+#navcol-1 {
+  font-size:16px;
+  font-family:Raleway, sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  text-transform:uppercase;
+  color:#222;
+}
+
+#hero-bottom {
+  color:#fff;
+  font-family:Raleway, sans-serif;
+}
+
+.p-top {
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom:0px;
+  letter-spacing:2px;
+}
+
+.btn.btn-link.btn-block.arrow-button {
+  color:#fff;
+  font-size:32px;
+}
+
+#hero-bottom .container {
+  max-width:700px;
+  text-align:center;
+}
+
+.with-borders {
+  border:1px solid #fff;
+  border-top:0;
+  border-bottom:0;
+}
+
+.p-bottom {
+  font-size:16px;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background-color:transparent;
+  height:70px;
+  padding-left:0px;
+}
+
+.info-link {
+  margin-bottom:0px;
+}
+
+.register-photo {
+  background-color:#0c62b2;
+}
+
+.contact-btn {
+  color:#fff;
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+  background:#1891E1;
+}
+
+.btn.btn-primary.btn-block.learn-more-btn {
+  background-color:#0c62b2;
+  color:#fff;
+  font-family:Raleway, sans-serif;
+  border:none;
+}
+
+.btn.btn-primary.btn-block.learn-more-btn:hover {
+  background-color:#1891E1;
+  color:#fff;
+  font-family:Raleway, sans-serif;
+  border:none;
+}
+
+.btn.btn-primary.btn-block.request-btn {
+  background-color:#d4a32c !important;
+  font-family:Raleway, sans-serif;
+  font-size:16px;
+}
+
+.text-center {
+  font-family:Raleway, sans-serif !important;
+  color:#fff;
+  letter-spacing:1px;
+  font-size:28px;
+}
+
+
+#hero-top {
+  background-color: #fff;
+}
+
+.overlay {
+  background-color:rgba(212,163,44,0.74);
+  height:90vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.overlay h1 {
+  flex-grow:1;
+  margin-top:20%;
+  color:#fff;
+  font-family:Raleway, sans-serif;
+}
+
+.col-md-10.col-lg-5.offset-md-1.left-text {
+  font-family:Raleway, sans-serif;
+  font-size:16px;
+}
+
+.col-md-10.col-lg-5.offset-md-1.offset-lg-0.right-text {
+  font-family:Raleway, sans-serif;
+  font-size:16px;
+}
+
+.team-clean .text-center {
+  color:#fff;
+}
+
+#roster {
+  background-color:#fff;
+}
+
+#history {
+  color:#333;
+  padding-top:25px;
+}
+
+#roster .name {
+  color:rgb(12,98,178);
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.title {
+  margin-top:25px;
+  margin-bottom:8px;
+  /*color:#333333;*/
+}
+
+.intro p {
+  font-size:16px;
+  color:#333;
+}
+
+.k-attribution {
+  font-size:11px;
+  letter-spacing:2px;
+}
+
+.text-center.copyright {
+  font-size:11px;
+}
+
+.text-center.contact-text {
+  color:#333;
+}
+
+.terms h1 {
+  color:#333333;
+  margin-top:30px;
+}
+
+.description {
+  font-family:Raleway, sans-serif;
+  color:#333;
+  font-size:16px;
+}
+
+.overlay-blue {
+  background-color:rgba(12,98,178,0.74);
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+
+.bg-background {
+  background-image:url("../img/luca-bravo-198062-unsplash-min.jpg");
+  height:85vh;
+  width:100%;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.intro {
+  display:flex;
+  flex-direction:column;
+  flex-grow:3;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.hero-bottom-blue {
+  flex-grow:1;
+}
+
+.intro h2 {
+  vertical-align:middle;
+}
+
+.newsletter-subscribe p {
+  color:#fff;
+}
+
+.footer-dark {
+  justify-content:end;
+}
+
+.register-photo {
+  height:80vh;
+}
+
+.col-sm-12.col-md-6.col-lg-3.about-item {
+    min-height: 100px;
+    position: relative;
+}
+
+.col-sm-12.col-md-6.col-lg-3.about-item p {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+}
+
+
+// Media Queries
+
+@media (min-width: 768px) {
+  #hero {
+    background:url("../img/simon-rae-271949-unsplash-min.jpg") no-repeat center;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn.btn-primary.btn-block.learn-more-btn {
+    background-color:#0c62b2;
+    color:#fff;
+    font-family:Raleway, sans-serif;
+    border:none;
+    max-width:145px;
+    margin:0 auto;
+  }
+}
