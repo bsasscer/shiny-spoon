@@ -39,6 +39,7 @@
 #hero-bottom {
   color:#fff;
   font-family:Raleway, sans-serif;
+  flex-grow: 1;
 }
 
 .p-top {
@@ -48,10 +49,6 @@
   letter-spacing:2px;
 }
 
-.btn.btn-link.btn-block.arrow-button {
-  color:#fff;
-  font-size:32px;
-}
 
 #hero-bottom .container {
   max-width:700px;
@@ -92,9 +89,12 @@
 
 .btn.btn-primary.btn-block.learn-more-btn {
   background-color:#0c62b2;
+  border:none;
   color:#fff;
   font-family:Raleway, sans-serif;
-  border:none;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  max-width: 180px;
 }
 
 .btn.btn-primary.btn-block.learn-more-btn:hover {
@@ -130,8 +130,6 @@
 }
 
 .overlay h1 {
-  flex-grow:1;
-  margin-top:20%;
   color:#fff;
   font-family:Raleway, sans-serif;
 }

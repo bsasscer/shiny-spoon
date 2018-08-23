@@ -6850,17 +6850,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 #hero-bottom {
   color: #fff;
-  font-family: Raleway, sans-serif; }
+  font-family: Raleway, sans-serif;
+  flex-grow: 1; }
 
 .p-top {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 0px;
   letter-spacing: 2px; }
-
-.btn.btn-link.btn-block.arrow-button {
-  color: #fff;
-  font-size: 32px; }
 
 #hero-bottom .container {
   max-width: 700px;
@@ -6893,9 +6890,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn.btn-primary.btn-block.learn-more-btn {
   background-color: #0c62b2;
+  border: none;
   color: #fff;
   font-family: Raleway, sans-serif;
-  border: none; }
+  letter-spacing: 1px;
+  margin: 0 auto;
+  max-width: 180px; }
 
 .btn.btn-primary.btn-block.learn-more-btn:hover {
   background-color: #1891E1;
@@ -6924,8 +6924,6 @@ a.text-dark:hover, a.text-dark:focus {
   flex-direction: column; }
 
 .overlay h1 {
-  flex-grow: 1;
-  margin-top: 20%;
   color: #fff;
   font-family: Raleway, sans-serif; }
 
